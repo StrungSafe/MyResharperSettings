@@ -1,25 +1,28 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>ResharperSettings.Settings</id>
+    <id>StrungSafe.DotSettings</id>
     <version>0.1.0</version>
-    <title>Resharper Settings</title>
+    <title>My Code Format Settings</title>
+
     <authors>Miguel Molina Jr.</authors>
     <owners>Miguel Molina Jr.</owners>
+
     <projectUrl>http://miguelmolinajr.me</projectUrl>
+
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
     <description>
       Formatting settings and live templates for ReSharper
     </description>
+
     <copyright>Copyright © 2019</copyright>
+
     <dependencies>
-      <dependency id="Wave" version="[12.0]" />
+      <dependency id="Wave" version="[183.0]" /> <!--This is VS 2017, R#er 2018.3.3--> 
     </dependencies>
-    <releaseNotes>
-    </releaseNotes>
-    <tags>settings</tags>
   </metadata>
   <files>
-    <file src=".\ResharperSettings.DotSettings" target="DotFiles\Extensions\ResharperSettings.Settings\settings\" />
+    <file src=".\StrungSafe.DotSettings" target="DotFiles\Extensions\StrungSafe.DotSettings\settings\StrungSafe.DotSettings" />
   </files>
 </package>
