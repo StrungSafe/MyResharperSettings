@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>ResharperSettings</id>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <title>Resharper Settings</title>
     <authors>Miguel Molina Jr.</authors>
     <owners>Miguel Molina Jr.</owners>
@@ -11,9 +11,9 @@
     <description>
       Formatting settings and live templates for ReSharper
     </description>
-    <copyright>Copyright © Miguel Molina Jr.</copyright>
+    <copyright>Copyright © 2019</copyright>
     <dependencies>
-      <dependency id="Wave" version="[2.0]" />
+      <dependency id="Wave" version="[12.0]" />
     </dependencies>
     <releaseNotes>
     </releaseNotes>
