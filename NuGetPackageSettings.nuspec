@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>ResharperSettings</id>
+    <id>ResharperSettings.Settings</id>
     <version>0.2.0</version>
     <title>Resharper Settings</title>
     <authors>Miguel Molina Jr.</authors>
@@ -20,6 +20,6 @@
     <tags>settings</tags>
   </metadata>
   <files>
-    <file src=".\ResharperSettings.DotSettings" target="DotFiles\Extensions\ResharperSettings\settings\" />
+    <file src=".\ResharperSettings.DotSettings" target="DotFiles\Extensions\ResharperSettings.Settings\settings\" />
   </files>
 </package>
